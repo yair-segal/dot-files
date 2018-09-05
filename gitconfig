@@ -1,0 +1,12 @@
+[user]
+  name = Yair Segal
+  email = segyair@gmail.com
+[alias]
+  co = checkout
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  st = status --short -b
+  df = diff -w --color-words
+  lg = "log --graph --pretty=format:'%Cred%h%Creset %C(blue)%cn%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
+[push]
+  default = simple
