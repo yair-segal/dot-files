@@ -10,3 +10,10 @@
   lg = "log --graph --pretty=format:'%Cred%h%Creset %C(blue)%cn%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 [push]
   default = simple
+
+
+; git reset HEAD^;                            undo lasy commit and keep the changes: $ 
+; git checkout origin/master -- <file path> ;
+; git push origin --delete feature/login ;    delete remote branch
+; git diff origin/master -- [local-path] ;    compare between local and remote: $ 
+; git branch | grep -v "master" | grep -v "release-39" | xargs git branch -D ;       delete local branches: $ 
