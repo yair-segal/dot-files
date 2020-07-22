@@ -1,0 +1,13 @@
+# installation
+# ----------------
+# https://www.terraform.io/downloads.html
+# wget ..
+# unzip terraform_ ...
+# sudo mv terraform /usr/local/bin
+
+# https://www.terraform.io/docs/commands/cli-config.html
+
+plugin_cache_dir   = "$HOME/.terraform.d/plugin-cache"
+disable_checkpoint = true
+
+
