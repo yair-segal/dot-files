@@ -11,6 +11,7 @@
 - Java 11
 - Postman
 - python3.7
+- Terraform
 - Docker
 - IntelliJ IDEA
 - Sublime Text
