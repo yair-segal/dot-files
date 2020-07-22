@@ -33,3 +33,4 @@
 ### Benefits
 - Health insurance
 - 401K
+- Expenses
