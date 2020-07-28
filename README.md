@@ -4,7 +4,7 @@
 
 ### Application checklist
 - Preferred browser
-- iTerm
+- iTerm2 (Remember to: Preferences -> Profiles -> Terminal -> Unlimited scrollback)
 - Slack - https://slack.com/downloads/mac
 - Brew - https://brew.sh/
 - NodeJS - https://nodejs.org/en/
