@@ -1,6 +1,6 @@
 [user]
   name = Yair Segal
-  email = segyair@gmail.com
+  email = yair.segal@imperva.com
 [alias]
   co = checkout
   br = branch
@@ -12,8 +12,20 @@
   default = simple
 
 
-; git reset HEAD^;                            undo lasy commit and keep the changes: $ 
+; git reset HEAD^;                            undo lasy commit and keep the changes: $
 ; git checkout origin/master -- <file path> ;
+; squash all commits on branch: https://stackoverflow.com/a/25357146/1553727
 ; git push origin --delete feature/login ;    delete remote branch
-; git diff origin/master -- [local-path] ;    compare between local and remote: $ 
-; git branch | grep -v "master" | grep -v "release-39" | xargs git branch -D ;       delete local branches: $ 
+; git diff branch1..branch2
+; git diff origin/master -- [local-path] ;    compare between local and remote: $
+; git branch | grep -v "master" | grep -v "my-current-feature-branch" | xargs git branch -D ;       delete local branches
+
+; squash commits on branch:
+; git checkout myBranch
+; git reset $(git merge-base master myBranch)
+; git add -A
+; git commit -am"commit"
+; git push --force
+
+[pull]
+	ff = only
