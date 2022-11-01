@@ -7,18 +7,21 @@
 - iTerm2 (Remember to: Preferences -> Profiles -> Terminal -> Unlimited scrollback)
 - Slack - https://slack.com/downloads/mac
 - Brew - https://brew.sh/
-- NodeJS - https://nodejs.org/en/
-- Java 11
+- Java
 - Postman
 - python3.7
 - Terraform
 - Docker
 - IntelliJ IDEA
 - Sublime Text
-- MySQL Workbench (or any other db client)
-- MongoDB compass
 - AWS CLI
 - Microsoft Office
+
+---
+
+- NodeJS - https://nodejs.org/en/
+- MySQL Workbench (or any other db client)
+- MongoDB compass
 
 ### Web access checlist
 - https://gitlab.com/
