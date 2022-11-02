@@ -7,7 +7,7 @@
 - iTerm2 (Remember to: Preferences -> Profiles -> Terminal -> Unlimited scrollback)
 - Slack - https://slack.com/downloads/mac
 - Brew - https://brew.sh/
-- Java
+- Java (https://jdk.java.net/19/)
   ```
   $ brew install java
   $ sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
