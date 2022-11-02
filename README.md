@@ -8,6 +8,14 @@
 - Slack - https://slack.com/downloads/mac
 - Brew - https://brew.sh/
 - Java
+  ```
+  $ brew install java
+  $ sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+  $ java -version
+  openjdk version "19" 2022-09-20
+  OpenJDK Runtime Environment Homebrew (build 19)
+  OpenJDK 64-Bit Server VM Homebrew (build 19, mixed mode, sharing)
+  ```
 - Postman
 - python3.7
 - Terraform
