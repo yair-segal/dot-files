@@ -8,6 +8,18 @@
 - Slack - https://slack.com/downloads/mac
 - Brew - https://brew.sh/
 - Java (https://jdk.java.net/19/)
+
+  Option 1:
+  ```
+  # download from https://jdk.java.net/18/ (https://download.java.net/java/GA/jdk18.0.2.1/db379da656dc47308e138f21b33976fa/1/GPL/openjdk-18.0.2.1_macos-aarch64_bin.tar.gz)
+  $mv ~/Downloads/jdk-18.0.2.1.jdk ~/Library/JavaJavaVirtualMachines/
+  $ java -version
+  openjdk version "18.0.2.1" 2022-08-18
+  OpenJDK Runtime Environment (build 18.0.2.1+1-1)
+  OpenJDK 64-Bit Server VM (build 18.0.2.1+1-1, mixed mode, sharing)
+  ```
+  
+  Option 2:
   ```
   $ brew install java
   $ sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
