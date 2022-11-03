@@ -20,6 +20,8 @@
 - BeyondCompare
 - python3.7
 - Terraform
+  - brew install tfenv
+  - brew install tgenv
 - Docker
 - IntelliJ IDEA
 - Sublime Text
