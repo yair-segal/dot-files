@@ -17,7 +17,7 @@
   OpenJDK 64-Bit Server VM Homebrew (build 19, mixed mode, sharing)
   ```
 - Postman
-- BwyondCompare
+- BeyondCompare
 - python3.7
 - Terraform
 - Docker
